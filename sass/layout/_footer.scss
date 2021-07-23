@@ -3,7 +3,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-logo-link {
+.footer__logo--link {
   display: block;
   margin-bottom: 20px;
 
@@ -14,7 +14,7 @@
   color: var(--primary-white-color);
 }
 
-.footer-link {
+.footer__link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.5;
@@ -26,8 +26,8 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-link:hover,
-.footer-link:active {
+.footer__link:hover,
+.footer__link:active {
   color: var(--primary-white-color);
 }
 
@@ -35,15 +35,15 @@
   color: var(--primary-white-color);
 }
 
-.footer-list .footer-list-item:not(:last-child) {
+.footer__list .footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.address > a.footer-link {
+.address > a.footer__link {
   margin-bottom: 9px;
 }
 
-.footer-strong {
+.footer__strong {
   display: block;
   margin-bottom: 20px;
 
@@ -54,7 +54,7 @@
   color: var(--primary-white-color);
 }
 
-.footer-social-list {
+.footer__social--list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,7 +62,7 @@
   height: 44px;
 }
 
-.footer-social-list_item-link {
+.footer__social--link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,40 +75,40 @@
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-icon-footer {
+.footer__social--icon {
   width: 20px;
   height: 20px;
 }
 
-.footer-social-list_item-link:hover,
-.footer-social-list_item-link:focus {
+.footer__social--link:hover,
+.footer__social--link:focus {
   background: var(--button-blue-color);
 }
 
-.footer-main {
+.footer__main {
   display: flex;
   justify-content: baseline;
 }
 
-.footer-one {
+.footer__one {
   margin-right: 70px;
 }
 
-.footer-second {
+.footer__second {
   margin-top: 12px;
   margin-right: 93px;
 }
 
-.footer-third {
+.footer__third {
   margin-top: 12px;
 }
 
-.footer-form {
+.footer__form {
   display: flex;
   justify-content: center;
 }
 
-.footer-email-input {
+.footer__input--email {
   /* display: block; */
   width: 358px;
   height: 50px;
@@ -129,7 +129,7 @@
   border-radius: 4px;
 }
 
-.footer-email-input::placeholder {
+.footer__input--email::placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
@@ -161,7 +161,7 @@
   background: var(--button-hover-color);
 }
 
-.telegram-btn-icon {
+.footer__btn--icon {
   position: absolute;
   top: 13px;
   right: 20px;
