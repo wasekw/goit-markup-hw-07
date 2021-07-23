@@ -392,6 +392,10 @@ body {
   background-color: var(--button-hover-color);
 }
 
+.advantage {
+  padding-top: 94px;
+}
+
 .advantage__list {
   display: flex;
 }
@@ -412,14 +416,6 @@ body {
   height: 70px;
 }
 
-.advantage {
-  padding-top: 94px;
-}
-
-.advantage__list .advantage__item + .advantage__item {
-  margin-left: 30px;
-}
-
 .advantage__title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -427,6 +423,10 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   color: var(--title-text-color);
+}
+
+.advantage__list .advantage__item + .advantage__item {
+  margin-left: 30px;
 }
 
 .work__list,
@@ -556,12 +556,11 @@ body {
 }
 
 .clients__link:hover .clients__picture,
-.clients__link:focus .clients__picture {
+.clients__linkfocus .clients__picture {
   fill: #2196f3;
 }
 
-.clients__link:hover,
-.clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   border: 1px solid #2196f3;
 }
 
@@ -718,23 +717,6 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__link:hover,
-.footer__link:active {
-  color: var(--primary-white-color);
-}
-
-.address > a.link {
-  color: var(--primary-white-color);
-}
-
-.footer__list .footer__item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.address > a.footer__link {
-  margin-bottom: 9px;
-}
-
 .footer__strong {
   display: block;
   margin-bottom: 20px;
@@ -747,21 +729,6 @@ body {
 .footer__social--list {
   width: 206px;
   height: 44px;
-}
-
-.footer__social--link {
-  background: rgba(255, 255, 255, 0.1);
-  fill: var(--primary-white-color);
-}
-
-.footer__social--icon {
-  width: 20px;
-  height: 20px;
-}
-
-.footer__social--link:hover,
-.footer__social--link:focus {
-  background: var(--button-blue-color);
 }
 
 .footer__main {
@@ -785,6 +752,36 @@ body {
 .footer__form {
   display: flex;
   justify-content: center;
+}
+
+.footer__link:hover, .footer__link:active {
+  color: var(--primary-white-color);
+}
+
+.address > a.link {
+  color: var(--primary-white-color);
+}
+
+.footer__list .footer__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address > a.footer__link {
+  margin-bottom: 9px;
+}
+
+.footer__social--link {
+  background: rgba(255, 255, 255, 0.1);
+  fill: var(--primary-white-color);
+}
+
+.footer__social--link:hover, .footer__social--link:focus {
+  background: var(--button-blue-color);
+}
+
+.footer__social--icon {
+  width: 20px;
+  height: 20px;
 }
 
 .footer__input--email {

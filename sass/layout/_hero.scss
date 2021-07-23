@@ -18,24 +18,24 @@
 
   background-color: var(--main-hiro-color);
   text-align: center;
-}
 
-.hero__title {
-  margin-bottom: 30px;
+  &__title {
+    margin-bottom: 30px;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+  }
 }
 
 .button__hero {
   padding: 10px 32px;
-}
 
-.button__hero:hover,
-.button__hero:focus {
-  background-color: var(--button-hover-color);
+  &:hover,
+  &:focus {
+    background-color: var(--button-hover-color);
+  }
 }
