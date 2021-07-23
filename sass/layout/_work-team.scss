@@ -50,21 +50,16 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team__social--list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .team__social--item > .team__social--link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // width: 44px;
+  // height: 44px;
+  // border-radius: 50%;
   background-color: var(--primary-white-color);
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  // transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team__social--icon {
