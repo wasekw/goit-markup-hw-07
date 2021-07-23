@@ -128,7 +128,6 @@ body {
   border-radius: 2px;
 }
 
-/* =========SVG======================== */
 .header__icons:first-child {
   width: 16px;
   height: 12px;
@@ -136,7 +135,7 @@ body {
   fill: var(--primary-text-color);
 }
 
-.icon-phone.header__icons {
+.header__icons--phone.header__icons {
   width: 10px;
   height: 16px;
 }
@@ -217,7 +216,7 @@ body {
   text-align: center;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -227,7 +226,7 @@ body {
   color: var(--primary-white-color);
 }
 
-.button-hero {
+.button__hero {
   padding: 10px 32px;
   background-color: var(--button-blue-color);
   font-weight: 700;
@@ -242,16 +241,16 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-hero:hover,
-.button-hero:focus {
+.button__hero:hover,
+.button__hero:focus {
   background-color: var(--button-hover-color);
 }
 
-.advantage-list {
+.advantage__list {
   display: flex;
 }
 
-.advantage-box {
+.advantage__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,7 +261,7 @@ body {
   border-radius: 4px;
 }
 
-.advantage-picture {
+.advantage__picture {
   width: 70px;
   height: 70px;
 }
@@ -271,11 +270,11 @@ body {
   padding-top: 94px;
 }
 
-.advantage-list .advantage-list-item + .advantage-list-item {
+.advantage-list .advantage__item + .advantage__item {
   margin-left: 30px;
 }
 
-.advantage-list-title {
+.advantage__title {
   margin-bottom: 10px;
   font-weight: 700;
   line-height: 1.14;
