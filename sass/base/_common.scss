@@ -29,12 +29,10 @@ img {
 }
 
 body {
+  @include font(400, 14px, 1.71);
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: var(--main-font);
-  font-size: 14px;
-  font-weight: 400;
   font-style: normal;
   letter-spacing: 0.03em;
-  line-height: 1.71;
 }

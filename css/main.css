@@ -183,14 +183,14 @@ img {
 }
 
 body {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: var(--main-font);
-  font-size: 14px;
-  font-weight: 400;
   font-style: normal;
   letter-spacing: 0.03em;
-  line-height: 1.71;
 }
 
 .container {
@@ -211,10 +211,10 @@ body {
 }
 
 .button {
-  background-color: var(--button-blue-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  background-color: var(--button-blue-color);
   color: var(--primary-white-color);
   cursor: pointer;
   letter-spacing: 0.06em;
@@ -291,6 +291,7 @@ body {
 .header__link--contacts {
   justify-content: center;
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -403,8 +404,8 @@ body {
 .advantage__title {
   margin-bottom: 10px;
   font-weight: 700;
-  line-height: 1.14;
   font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
 }

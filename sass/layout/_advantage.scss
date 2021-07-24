@@ -22,9 +22,7 @@
   &__title {
     margin-bottom: 10px;
 
-    font-weight: 700;
-    line-height: 1.14;
-    font-size: 14px;
+    @include font($fs: 14px, $lh: 1.14);
     text-transform: uppercase;
     color: var(--title-text-color);
   }

@@ -60,8 +60,7 @@
   @extend %align;
   justify-content: center;
 
-  font-weight: 500;
-  line-height: 1.14;
+  @include font($fw: 500, $fs: 14px, $lh: 1.14);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   cursor: pointer;
@@ -94,9 +93,7 @@
   margin-right: 93px;
 
   font-family: var(--second-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  @include font($fs: 26px, $lh: 1.19);
   color: var(--logo-color);
   text-decoration: none;
 }
