@@ -1,26 +1,11 @@
 // UTILS
-@import "./utils/fonts";
-@import "./utils/normalizer";
-@import "./utils/variables";
-@import "./utils/visually-hidden";
-@import "./utils/placeholder";
-@import "./utils/mixin-font";
+@import "./utils/index";
 
 // BASE
-@import "./base/common";
-@import "./base/container";
+@import "./base/index";
 
 // COMPONENTS
-@import "./components/title";
-@import "./components/button";
-@import "./components/social-list";
+@import "./components/index";
 
 // LAYOUT
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/advantage";
-@import "./layout/work-team";
-@import "./layout/clients";
-@import "./layout/portfolio";
-@import "./layout/footer";
-@import "./layout/modal";
+@import "./layout/index";
